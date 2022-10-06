@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+  font-family: "Lato";
+  font-weight: 400;
+  color: #424551;
+  height: auto;
+}
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+h1 {
+  font-weight: 900;
+  font-size: 46px;
+  Line-height: 130%;
+  color: #1e212c;
+  margin: 96px 0;
+}
+img {
+  min-width: 100%;
+  border-radius: 4px;
+}
+.image__container { 
+  margin-bottom: 56px;
+}
+.article__container {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 24px;
+}
+.paragraph__one__container {
+  margin-bottom: 26px;
+} 
+blockquote {
+  width: 752px;
+  height: 120px;
+  color: #1e212c;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 48px 0px;
+  padding-left: 58px;
+}
+li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 4px;
+  padding-left: 32px;
+}
+.list__container,
+.list_list__container {
+  margin-bottom: 24px;
+}
+.text__container {
+  margin-bottom: 100px;
+}
+
+.background {
+ font-family: "Josefin Sans";
+ font-size: 40px;
+ text-align: center;
+ color: aqua;
+ max-width: 1200px;
+ margin: 0 auto;
+ margin-bottom: 40px;
+ background-image: url('../img/amazing.jpg');
+}
+[class*="__block"] {
+  margin-bottom: 300px;
+  padding: 50px;
+}   
+.background__block-1 {
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border: 6px solid #98d0c6fc;
+  border-radius: 80px;
+}
+.background__block-2 {
+  background: greenyellow url('../img/flouwers_1.jpg') top / 1200px no-repeat;
+  border: 6px solid #98d0c6fc; 
+  border-radius: 80px;
+}
+.background__block-3{
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(222,163,205,0.9110994739692753) 100%);
+  background-attachment: fixed;
+  border: 6px solid #98d0c6fc;
+  border-radius: 80px;
+}
+.background__block-4{
+  background:rgb(234, 116, 234) url('../img/flouwers_2.jpg') bottom / contain repeat-x;
+  border: 6px solid #98d0c6fc;
+  border-radius: 80px;
+}
+
